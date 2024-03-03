@@ -73,10 +73,11 @@ public class BoardVO {
 		this.cnt = cnt;
 	}
 
-	//toString 
+	//toString을 사용하는 이유 -> 간결하면서 사람이 읽기 쉬운 형태의 유익한 정보를 반환 
 	@Override
 	public String toString() {
-	 return null;
+	 return "BoardVO [num=" + num +",title=" +title+",writer=" +writer+",content=" + content+","
+	 		+ "regdate="+regdate+",ctn="+cnt+"]";
 	}
 			
 	
