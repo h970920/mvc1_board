@@ -2,85 +2,77 @@ package board;
 
 import java.util.Date;
 
-//num, title, writer, content, regdate, cnt
 public class BoardVO {
-	private int num;
-	private String title;
-	private String writer;
-	private String content;
-	private Date regdate;
-	private int cnt;
-	
+    private int num;
+    private String title;
+    private String writer;
+    private String content;
+    private Date regdate;
+    private int cnt;
 
-	public BoardVO() {
-	}
+    public BoardVO() {
+    }
 
-	public BoardVO(int num, String title, String writer, String content, Date regdate, int cnt) {
-		super();
-		this.num = num;
-		this.title = title;
-		this.writer = writer;
-		this.content = content;
-		this.regdate = regdate;
-		this.cnt = cnt;
-	}
+    public BoardVO(int num, String title, String writer, String content, Date regdate, int cnt) {
+        this.num = num;
+        this.title = title;
+        this.writer = writer;
+        this.content = content;
+        this.regdate = regdate;
+        this.cnt = cnt;
+    }
 
-	public int getNum() {
-		return num;
-	}
+    public int getNum() {
+        return num;
+    }
 
-	public void setNum(int num) {
-		this.num = num;
-	}
+    public void setNum(int num) {
+        this.num = num;
+    }
 
-	public String getTitle() {
-		return title;
-	}
+    public String getTitle() {
+        return title;
+    }
 
-	public void setTitle(String title) {
-		this.title = title;
-	}
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
-	public String getWriter() {
-		return writer;
-	}
+    public String getWriter() {
+        return writer;
+    }
 
-	public void setWriter(String writer) {
-		this.writer = writer;
-	}
+    public void setWriter(String writer) {
+        this.writer = writer;
+    }
 
-	public String getContent() {
-		return content;
-	}
+    public String getContent() {
+        return content;
+    }
 
-	public void setContent(String content) {
-		this.content = content;
-	}
+    public void setContent(String content) {
+        this.content = content;
+    }
 
-	public Date getRegdate() {
-		return regdate;
-	}
+    public Date getRegdate() {
+        return regdate;
+    }
 
-	public void setRegdate(Date regdate) {
-		this.regdate = regdate;
-	}
+    public void setRegdate(Date regdate) {
+        this.regdate = regdate;
+    }
 
-	public int getCnt() {
-		return cnt;
-	}
+    public int getCnt() {
+        return cnt;
+    }
 
-	public void setCnt(int cnt) {
-		this.cnt = cnt;
-	}
+    public void setCnt(int cnt) {
+        this.cnt = cnt;
+    }
 
-	//toString을 사용하는 이유 -> 간결하면서 사람이 읽기 쉬운 형태의 유익한 정보를 반환 
-	@Override
-	public String toString() {
-	 return "BoardVO [num=" + num +",title=" +title+",writer=" +writer+",content=" + content+","
-	 		+ "regdate="+regdate+",ctn="+cnt+"]";
-	}
-			
-	
-	
-
+    @Override
+    public String toString() {
+        return "BoardVO [num=" + num + ", title=" + title + ", writer=" + writer + ", content=" + content
+                + ", regdate=" + regdate + ", cnt=" + cnt + "]";
+    }
 }
