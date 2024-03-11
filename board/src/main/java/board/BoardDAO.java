@@ -99,7 +99,7 @@ public class BoardDAO {
         }
     }
 
-    // 삭제(D)
+    // 삭제(D)	
     public int delete(int num) {
         String query = "DELETE FROM board WHERE num=?";
         try (Connection con = ju.getConnection();
