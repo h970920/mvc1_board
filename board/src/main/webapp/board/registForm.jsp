@@ -21,17 +21,17 @@
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        input[type="text"],input[type="password"],
+        input[type="text"],
         textarea {
-            width: calc(100% - 20px);
+            width: 100%;
             padding: 10px;
-            margin: 10px 0;
+            margin-bottom: 20px;
             border: 1px solid #ccc;
             border-radius: 3px;
             box-sizing: border-box;
         }
-        input[type="button"] {
-            width: calc(100% - 20px);
+        input[type="submit"] {
+            width: 100%;
             padding: 10px;
             background-color: #007bff;
             color: #fff;
@@ -40,7 +40,7 @@
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
-        input[type="button"]:hover {
+        input[type="submit"]:hover {
             background-color: #0056b3;
         }
     </style>
