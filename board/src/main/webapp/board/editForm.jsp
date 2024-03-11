@@ -54,6 +54,7 @@
         }
         h3 {
         text-align: center;
+        padding : 20px;
         }
      
     </style>
@@ -66,6 +67,7 @@
 	<input type="text" name="writer" value="${vo.writer}" required disabled><br>
 	<textarea rows="4" cols="20" name="content">${vo.content}</textarea><br>
 	<input type="submit" value="수정">	
+	
 </form>
 </body>
 </html>
